@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase & Firestore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body background="Keyboard-and-mouse-backlight_1920x1080.jpg">
+<div class="container my-5 bg-secondary ">
+    <h2>Mouse Center</h2>
+    <ul style="list-style: none;">
+    </ul>
+    <form>
+        <h4>Introdueix un ratoli:</h4>
+        <label for="marca" class="ml-3">Introdueix la marca:</label>
+        <div class="input-group col-lg-6">
+            <input type="text" class="form-control" id="marca" required placeholder="'Logitech'">
+        </div>
+        <label for="model" class="ml-3">Introdueix el model:</label>
+        <div class="input-group col-lg-6 mt-2">
+            <input type="text" class="form-control" id="model" required placeholder="'G PRO'">
+        </div>
+        <label for="color" class="ml-3">Introdueix el color:</label>
+        <div class="input-group col-lg-6 mt-2">
+            <input type="text" class="form-control" id="color" required placeholder="'Negre'">
+        </div>
+        <div class="input-group-append ml-3 mt-2">
+            <input type="submit" value="Afegir" class="btn btn-primary">
+        </div>
+    </form>
+</div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+
+
+    <!-- Initialize Firebase -->
+    <!-- <script src="/__/firebase/init.js"></script> -->
+    <script src="sandbox.js"></script>
+</body>
+
+</html>
